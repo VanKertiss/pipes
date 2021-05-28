@@ -1,0 +1,369 @@
+@font-face {
+    font-family: 'UniNeue';
+    src: local('UniNeue'),
+        url('../fonts/UniNeueRegular.ttf') format('truetype');
+}
+
+body {
+    font-family: UniNeue;
+    font-size: 1.47vh;
+    background-image: url('../img/fon.png');
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: top ;
+}
+
+.container {
+    width: 80vw;
+    margin: auto;
+}
+
+.header {
+    margin-top: 4.22vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 9vw;
+}
+
+.textLogo {
+    margin-left: 1.82vw;
+}
+
+.imgMap {
+    width: 6.94vh;
+}
+
+.adress {
+    display: flex;
+    align-items: center;
+    margin-left: 6.35vw;
+}
+
+.textMap {
+    margin-left: 1vh;
+}
+
+.buttonForm {
+    width: 12.71vw;
+    height: 6.48vh;
+    background-color: #313d4b;
+    color: white;
+    border-radius: 0.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6.35vw;
+    margin-right: 6.35vw;
+    border: none;
+    font-size: 1.47vh;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.phoneImg {
+    width: 1.48vh;
+}
+
+.phoneNumber {
+    font-size: 2.02vh;
+}
+
+.soccialItem {
+    margin-top: 0.92vh;
+    width: 4.54vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    margin-top: 5.60vh;
+    
+}
+
+.navLinks {
+    text-decoration: none;
+    color: black;
+}
+
+.descriptMain {
+    width: 47vw;
+}
+
+.h1 {
+    margin-top: 9vh;
+    font-size: 5.50vh;
+}
+
+.descriptColumns {
+    margin-top: 5.78vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.columnImg {
+    height: 2.11vh;
+}
+
+.descriptinText {
+    font-size: 1.83vh;
+    padding-top: 1.2vh;
+}
+
+.disNum {
+    font-size: 6.61vh;
+    padding-top: -0.5vh;
+    margin-right: 0.5vw;
+}
+
+.descriptColumn {
+    display: flex;
+    margin-right: 1.8vw;
+}
+
+.descriptColumns:last-child {
+    margin-right: 0vw;
+}
+
+.descriptAbout{
+    display: flex;
+    justify-content: space-between;    
+    margin-top: 6.48vh;
+}
+
+.descriptAboutItem{
+    width: 22.14vw;
+    font-size: 1.67vh;
+}
+
+.descriptAboutItem span{
+    background-color:white;
+    padding: 0.4vh;
+    border-radius:0.5vh
+}
+
+.descriptAboutItemButton{
+    width: 22.14vw;
+    height: 9.26vh;
+    margin-top: 2.13vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border: none;
+    border-radius: 0.5vh;
+    background: #fe7452;
+    color:white;
+    font-size: 1.57vh;
+    text-align: left;
+}
+
+
+
+.descriptAboutSliderTitle{
+    font-size: 1.57vh;
+    font-weight: bold;
+}
+
+/* -------------------------------------------slider--------*/
+
+.descriptAboutSlider{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.slider{
+display: flex;
+align-items:center;
+margin-top: 1.57vh;
+}
+
+.slideItem{
+    margin-left: 0.83vw;
+}
+
+.sliderButton{
+    width: 0.68vw;
+}
+
+.sliderImage{
+    width: 4.79vw;
+}
+
+/*--------------------------------------button-animation-----------------*/
+
+
+ 
+.custom-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-transition: ease 0.3s;
+    transition: ease 0.3s;
+}
+.custom-btn:after {
+    content: "";
+    display: block;
+    width: 1.56vw;
+    height: 27.78vh;
+    background: #fff;
+    background: -moz-linear-gradient(top, rgba(255,255,255,0.7) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0.7) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,0.7) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0.7) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,0.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3ffffff', endColorstr='#b3ffffff',GradientType=0 );
+    position: absolute;
+    left: -2.08vw;
+    top: -13.89vh;
+    z-index: 1;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+    -webkit-animation-name: slideme;
+    animation-name: slideme;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-delay: 0.05s;
+    animation-delay: 0.05s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.buttonImg{
+    margin-right: 0.89vw;
+    width: 1.98vw;
+}
+ 
+@-webkit-keyframes slideme {
+    0% { left: -1.56vw; margin-left: 0vw; }
+    30% { left: 110%; margin-left: 4.17vw; }
+    100% { left: 110%; margin-left: 4.17vw; } 
+}
+
+/*---------------------------------------modal-map--------------------*/
+
+.modalMap{
+    width: 85vw;
+    height: 80vh;
+}
+
+
+
+
+@media (max-width:1310px) {
+    .textLogo {
+        display: none;
+    }
+
+    .buttonForm{
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+
+    .h1 {
+        margin-top: 6vh;
+        font-size: 4.50vh;
+    }
+
+    .navLinks{
+        margin-right: 1vw;
+    }
+}
+
+@media (max-width:1050px) {
+    .descriptMain {
+        width: 80vw;
+    }
+
+    .phoneNumber {
+        font-size: 1.22vh;
+    }
+
+    .descriptAbout{
+        justify-content: space-around;
+    }
+
+    .sliderImage{
+        width: 7.79vw;
+    }
+
+    .modalImg{
+        width: 20vw;
+        height: 35vh;
+    }    
+}
+@media (max-width:850px){
+    .buttonForm{
+        display: none;
+    }
+
+    .logo{
+        width: 12vw;
+    }
+}
+@media (max-width:800px){
+    .descriptColumns{
+        flex-direction: column;
+    }
+
+    .descriptColumn{
+        margin-bottom: 2vh;
+    }
+
+    .soccialItem{
+        width: 3.5vw;
+    }
+}
+@media (max-width:700px){
+    .descriptAbout{
+        flex-direction: column;
+        margin-bottom: 5vh;
+    }
+    .descriptAboutItem{
+        width: 80vw;
+    }
+    .descriptAboutItemButton{
+        width: 80vw;
+    }
+    .descriptAboutSlider{
+        width: 80vw;
+    }
+}
+
+@media (max-width:500px){
+    .adress{
+        display: none;
+    }
+    .nav{
+        flex-direction: column;
+    }
+    .navLinks{
+        margin-bottom: 5px;
+    }
+    .h1 {
+        margin-top: 30px;
+        font-size: 25px;
+    }
+}

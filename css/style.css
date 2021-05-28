@@ -366,4 +366,7 @@ margin-top: 1.57vh;
         margin-top: 30px;
         font-size: 25px;
     }
+    .modalImg{
+        width: 100%;
+    }
 }

@@ -310,9 +310,9 @@ margin-top: 1.57vh;
     }
 
     .modalImg{
-        width: 20vw;
-        height: 35vh;
-    }    
+        width: 100%;
+    } 
+
 }
 @media (max-width:850px){
     .buttonForm{
@@ -335,6 +335,9 @@ margin-top: 1.57vh;
     .soccialItem{
         width: 3.5vw;
     }
+    .modalImg{
+        width: 100%;
+    }
 }
 @media (max-width:700px){
     .descriptAbout{
@@ -349,6 +352,9 @@ margin-top: 1.57vh;
     }
     .descriptAboutSlider{
         width: 80vw;
+    }
+    .modalImg{
+        width: 100%;
     }
 }
 
